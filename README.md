@@ -25,6 +25,7 @@
 1. PHP ^7.3
 2. PHP soap
 3. Lumen framework
-
+- [x] PHP ^7.3
+- [x] PHP soap
 
  </div>
