@@ -29,4 +29,14 @@
     
 </div>
 
- </div>
+# نصب
+
+نصب با استفاده از کامپوزر
+
+```bash
+composer require miladshakerdn/banktest
+composer install
+```
+
+</div>
+
