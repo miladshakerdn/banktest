@@ -1,0 +1,196 @@
+Sunday 15th 2020f November 2020 09:16:44 PM - 127.0.0.1
+bpSettleRequest
+Array
+(
+    [0] => stdClass Object
+        (
+            [terminalId] => 123625346124
+            [userName] => admin
+            [userPassword] => admin
+            [orderId] => 20
+            [saleOrderId] => 2534207636
+            [saleReferenceId] => 662921605278665
+        )
+
+)
+Sunday 15th 2020f November 2020 10:34:34 PM - 127.0.0.1
+bpSettleRequest
+Array
+(
+    [0] => stdClass Object
+        (
+            [terminalId] => 123625346124
+            [userName] => admin
+            [userPassword] => admin
+            [orderId] => 20
+            [saleOrderId] => 2534207636
+            [saleReferenceId] => 662921605278665
+        )
+
+)
+Monday 16th 2020f November 2020 09:29:26 PM - 127.0.0.1
+bpPayRequest
+Array
+(
+    [0] => stdClass Object
+        (
+            [terminalId] => 123625346124
+            [userName] => admin
+            [userPassword] => admin
+            [orderId] => 1238969701
+            [amount] => 130000
+            [localDate] => 20201116
+            [localTime] => 212926
+            [additionalData] => payment using behpardakht
+            [callBackUrl] => http://mvc.dev/payment/mellat/verify
+            [payerId] => 0
+        )
+
+)
+Monday 16th 2020f November 2020 09:30:26 PM - 127.0.0.1
+bpPayRequest
+Array
+(
+    [0] => stdClass Object
+        (
+            [terminalId] => 123625346124
+            [userName] => admin
+            [userPassword] => admin
+            [orderId] => 3451586932
+            [amount] => 130000
+            [localDate] => 20201116
+            [localTime] => 213026
+            [additionalData] => payment using behpardakht
+            [callBackUrl] => http://mvc.dev/payment/mellat/verify
+            [payerId] => 0
+        )
+
+)
+Monday 16th 2020f November 2020 09:31:45 PM - 127.0.0.1
+bpPayRequest
+Array
+(
+    [0] => stdClass Object
+        (
+            [terminalId] => 123625346124
+            [userName] => admin
+            [userPassword] => admin
+            [orderId] => 3126944958
+            [amount] => 130000
+            [localDate] => 20201116
+            [localTime] => 213145
+            [additionalData] => payment using behpardakht
+            [callBackUrl] => http://mvc.dev/payment/mellat/verify
+            [payerId] => 0
+        )
+
+)
+Monday 16th 2020f November 2020 09:32:28 PM - 127.0.0.1
+bpPayRequest
+Array
+(
+    [0] => stdClass Object
+        (
+            [terminalId] => 123625346124
+            [userName] => admin
+            [userPassword] => admin
+            [orderId] => 3815319346
+            [amount] => 130000
+            [localDate] => 20201116
+            [localTime] => 213228
+            [additionalData] => payment using behpardakht
+            [callBackUrl] => http://mvc.dev/payment/mellat/verify
+            [payerId] => 0
+        )
+
+)
+Monday 16th 2020f November 2020 09:32:32 PM - 127.0.0.1
+bpVerifyRequest
+Array
+(
+    [0] => stdClass Object
+        (
+            [terminalId] => 123625346124
+            [userName] => admin
+            [userPassword] => admin
+            [orderId] => 3815319346
+            [saleOrderId] => 3815319346
+            [saleReferenceId] => 160556235187973
+        )
+
+)
+Monday 16th 2020f November 2020 09:32:33 PM - 127.0.0.1
+bpSettleRequest
+Array
+(
+    [0] => stdClass Object
+        (
+            [terminalId] => 123625346124
+            [userName] => admin
+            [userPassword] => admin
+            [orderId] => 3815319346
+            [saleOrderId] => 3815319346
+            [saleReferenceId] => 160556235187973
+        )
+
+)
+Monday 16th 2020f November 2020 09:32:57 PM - 127.0.0.1
+bpVerifyRequest
+Array
+(
+    [0] => stdClass Object
+        (
+            [terminalId] => 123625346124
+            [userName] => admin
+            [userPassword] => admin
+            [orderId] => 3815319346
+            [saleOrderId] => 3815319346
+            [saleReferenceId] => 160556235187973
+        )
+
+)
+Monday 16th 2020f November 2020 09:32:57 PM - 127.0.0.1
+bpReversalRequest
+Array
+(
+    [0] => stdClass Object
+        (
+            [terminalId] => 123625346124
+            [userName] => admin
+            [userPassword] => admin
+            [orderId] => 3815319346
+            [saleOrderId] => 3815319346
+            [saleReferenceId] => 160556235187973
+        )
+
+)
+Monday 16th 2020f November 2020 09:33:01 PM - 127.0.0.1
+bpVerifyRequest
+Array
+(
+    [0] => stdClass Object
+        (
+            [terminalId] => 123625346124
+            [userName] => admin
+            [userPassword] => admin
+            [orderId] => 3815319346
+            [saleOrderId] => 3815319346
+            [saleReferenceId] => 160556235187973
+        )
+
+)
+Monday 16th 2020f November 2020 09:33:01 PM - 127.0.0.1
+bpReversalRequest
+Array
+(
+    [0] => stdClass Object
+        (
+            [terminalId] => 123625346124
+            [userName] => admin
+            [userPassword] => admin
+            [orderId] => 3815319346
+            [saleOrderId] => 3815319346
+            [saleReferenceId] => 160556235187973
+        )
+
+)
