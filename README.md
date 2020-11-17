@@ -1,4 +1,4 @@
-# BankTest
+# banktest
 
 شبیه‌ساز بانک ملت
 
