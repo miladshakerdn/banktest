@@ -2,13 +2,13 @@
 
 <div style="text-align:right;" dir="rtl">
 
-<p>
 <strong>شبیه‌ساز بانک ملت</strong>
+<p>
 به دلیل اینکه استفاده از API  درگاه به‌پرداخت ملت، برای همه برنامه‌نویسان امکان‌پذیر نیست، میتوان از این برنامه برای تست پروژه‌های خود و شبیه سازی پرداخت استفاده کرد.
 </p>
 
-<p>
 <strong>متد‌های موجود شامل :</strong>
+<p>
 <pre style="text-align:left;" dir="ltr">
 1- bpPayRequest
 2- bpVerifyRequest
