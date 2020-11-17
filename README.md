@@ -22,6 +22,8 @@
 
 <strong>وابستگی ها</strong>
 
+توجه! لازم است که SOAP نصب باشد.
+
 <div style="text-align:left;"  dir="ltr">
     
 - [x] PHP ^7.3
@@ -33,10 +35,9 @@
 
 نصب با استفاده از کامپوزر
 
-```bash
+<pre style="text-align:left;" dir="ltr">
 composer require miladshakerdn/banktest
 composer install
-```
+</pre>
 
 </div>
-
