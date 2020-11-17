@@ -22,10 +22,9 @@
 
 <strong>وابستگی ها</strong>
 
-1. PHP ^7.3
-2. PHP soap
-3. Lumen framework
+<p style="text-align:left;"  dir="ltr">
 - [x] PHP ^7.3
 - [x] PHP soap
+</p>
 
  </div>
