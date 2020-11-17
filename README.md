@@ -22,11 +22,11 @@
 
 <strong>وابستگی ها</strong>
 
-<p style="text-align:left;"  dir="ltr">
+<div style="text-align:left;"  dir="ltr">
     
 - [x] PHP ^7.3
 - [x] PHP soap
     
-</p>
+</div>
 
  </div>
