@@ -24,7 +24,8 @@
 
 توجه! لازم است که SOAP نصب باشد.
 
-[راهنمای نصب SOAP](https://stackoverflow.com/a/22397686)
+[راهنمای نصب SOAP](https://github.com/miladshakerdn/banktest/blob/main/README.md#installation-soap-for-php)
+
 
 <div style="text-align:left;"  dir="ltr">
     
@@ -99,9 +100,12 @@ your-localhost/bankTest/
 </div>
 
 
-## Installation SOAP for PHP
+## نصب SOAP برای PHP
 
-#### For Linux (Ubuntu)
+#### برای Linux (Ubuntu)
+
+<div style="text-align:left;" dir="ltr">
+    
 Apache
 ```
 sudo apt-get install php-soap
@@ -112,10 +116,19 @@ sudo apt-get install php7.4-soap
 sudo systemctl restart apache2
 
 ```
-#### For Windows
+</div>
+
+#### برای ویندوز
+
+<div style="text-align:left;" dir="ltr">
+
 1. Find `extension=php_soap.dll` or `extension=soap` in `php.ini` and remove the commenting semicolon at the beginning of the line. Eventually check for `soap.ini` under the `conf.d` directory.
 
 2. Restart your server.
+
+</div>
+
+[در stackoverflow](https://stackoverflow.com/a/22397686)
 
 
 </div>
