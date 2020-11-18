@@ -86,8 +86,9 @@ php artisan db:seed
 <div style="text-align:left;" dir="ltr">
 
 ```bash
+# If use =>  php -S your-server:PORT -t public
 your-server:PORT
-#OR
+# OR
 your-localhost/bankTest/
 ```
 
