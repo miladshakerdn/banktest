@@ -24,7 +24,6 @@
 
 [#راهنمای نصب SOAP](#نصب-soap-برای-php)
 
-
 <div style="text-align:left;"  dir="ltr">
     
 - [x] PHP ^7.3
@@ -51,7 +50,6 @@ composer install
 <div style="text-align:right;" dir="rtl">
     
 فایل <span style="text-align:left;" dir="ltr"> `.env` </span> را باز کرده و اطلاعات دیتابیس را وارد کنید.
-
 
 سپس با دستور زیر دیتابیس و داده‌های اولیه را ایجاد کنید:
 
@@ -102,11 +100,10 @@ your-localhost/bankTest/
 <div style="text-align:right;" dir="rtl">
 و حالا میتوانید استفاده کنید در پروژه خودتون.
 </div>
+
 </div>
 
-
 ## نصب SOAP برای PHP
-
 
 [php.net SOAP](https://www.php.net/manual/en/soap.installation.php)
 
@@ -115,6 +112,7 @@ your-localhost/bankTest/
 <div style="text-align:left;" dir="ltr">
     
 Apache
+
 ```
 sudo apt-get install php-soap
 # For example, a specific version of php (7.4)
@@ -122,8 +120,8 @@ sudo apt-get install php7.4-soap
 
 # Then
 sudo systemctl restart apache2
-
 ```
+
 </div>
 
 #### برای ویندوز
@@ -137,6 +135,5 @@ sudo systemctl restart apache2
 </div>
 
 [در stackoverflow](https://stackoverflow.com/a/22397686)
-
 
 </div>
