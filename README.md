@@ -55,6 +55,8 @@ composer install
 فایل <span style="text-align:left;" dir="ltr"> `.env` </span> را باز کرده و اطلاعات دیتابیس را وارد کنید.
 </div>
 
+سپس با دستور زیر دیتابیس و داده‌های اولیه را ایجاد کنید:
+
 ```bash
 #open .env and set your db information
 #migrate database
