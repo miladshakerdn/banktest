@@ -36,7 +36,11 @@
 نصب با استفاده از کامپوزر
 
 <pre style="text-align:left;" dir="ltr">
+
+composer require miladshakerdn/banktest
+
 git clone https://github.com/miladshakerdn/banktest.git
+
 composer install
 </pre>
 
