@@ -53,9 +53,11 @@ composer install
 <div style="text-align:right;" dir="rtl">
     
 فایل <span style="text-align:left;" dir="ltr"> `.env` </span> را باز کرده و اطلاعات دیتابیس را وارد کنید.
-</div>
+
 
 سپس با دستور زیر دیتابیس و داده‌های اولیه را ایجاد کنید:
+
+</div>
 
 ```bash
 #open .env and set your db information
@@ -68,7 +70,7 @@ php artisan db:seed
 
 ## نحوه استفاده
 
-مطابق مستندات ارائه شده توسط بانک ملت عمل کرده و مانند درگاه واقعی بانک ملت عمل میکند.
+مطابق مستندات ارائه شده توسط بانک ملت عمل کرده و مانند درگاه بانک ملت عمل میکند.
 
 اطلاعات اولیه پذیرنده شامل:
 
@@ -99,10 +101,14 @@ your-localhost/bankTest/
 
 ![Help WSDL URL](public/assets/img/1.png)
 
+و حالا میتوانید استفاده کنید در پروژه خودتون.
 </div>
 
 
 ## نصب SOAP برای PHP
+
+
+[php.net SOAP](https://www.php.net/manual/en/soap.installation.php)
 
 #### برای Linux (Ubuntu)
 
