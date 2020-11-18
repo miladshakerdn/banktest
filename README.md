@@ -36,8 +36,17 @@
 نصب با استفاده از کامپوزر
 
 <pre style="text-align:left;" dir="ltr">
-composer require miladshakerdn/banktest
+
+git clone https://github.com/miladshakerdn/banktest.git
+
+cd banktest
+
 composer install
+
+php artisan migrate
+
+php artisan db:seed
+
 </pre>
 
 </div>
