@@ -17,14 +17,11 @@
         <div class="fof">
             <h3>راهنما</h3>
             <div class="c-t-dark row alternat alternat-green">
-                <p>سرویس WSDL :</p>
-                <code class="code">
-                    {{ route("mellat.serve") }}
-                </code>
+                <p>سرویس WSDL : WSDL URL</p>
                 <code class="code">
                     {{ route("mellat.serve") }}?wsdl
                 </code>
-                <p>صفحه پرداخت :</p>
+                <p>صفحه پرداخت : Gateway URL</p>
                 <code class="code">
                     {{ route("mellat.gateway") }}
                 </code>
