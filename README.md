@@ -52,7 +52,7 @@ composer install
 
 <div style="text-align:right;" dir="rtl">
     
-فایل `.env` را باز کرده و اطلاعات دیتابیس را وارد کنید.
+فایل <span style="text-align:left;" dir="ltr"> `.env` </span> را باز کرده و اطلاعات دیتابیس را وارد کنید.
 </div>
 
 ```bash
