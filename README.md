@@ -46,6 +46,7 @@ cd banktest
 
 composer install
 ```
+
 <p style="text-align:right;" dir="rtl">
 فایل `.env` را باز کرده و اطلاعات دیتابیس را وارد کنید.
 </p>
@@ -80,7 +81,5 @@ php artisan db:seed
 
 </div>
 برای متوجه شدن لینک دقیق (`your-server:PORT` یا `your-localhost/bankTest/public/`) می‌توانید صفحه اصلی پروژه را در مرورگر باز کرده تا از آن مطلع شوید.
-
-
 
 </div>
