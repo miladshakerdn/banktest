@@ -1,5 +1,3 @@
-# Bank test
-
 <div style="text-align:right;" dir="rtl">
 
 # شبیه‌ساز بانک ملت
@@ -70,7 +68,7 @@ php artisan db:seed
 
 ## نحوه استفاده
 
-مطابق مستندات ارائه شده توسط بانک ملت عمل کرده و مانند درگاه بانک ملت عمل میکند.
+مطابق مستندات ارائه شده توسط بانک ملت عمل کرده و مانند درگاه بانک ملت عمل مي‌کند.
 
 اطلاعات اولیه پذیرنده شامل:
 
@@ -101,7 +99,9 @@ your-localhost/bankTest/
 
 ![Help WSDL URL](public/assets/img/1.png)
 
+<div style="text-align:right;" dir="rtl">
 و حالا میتوانید استفاده کنید در پروژه خودتون.
+</div>
 </div>
 
 
