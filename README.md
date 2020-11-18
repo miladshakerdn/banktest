@@ -80,12 +80,15 @@ php artisan db:seed
 | Or Gateway URL | http://your-localhost/bankTest/gateway           |
 
 </div>
-برای متوجه شدن لینک دقیق (  `your-localhost/bankTest/`) می‌توانید صفحه اصلی پروژه را در مرورگر باز کرده تا از آن مطلع شوید.
+برای متوجه شدن لینک دقیق می‌توانید صفحه اصلی پروژه را در مرورگر باز کرده تا از آن مطلع شوید.
 
 <div style="text-align:left;" dir="ltr">
-    
-`your-server:PORT`
-`your-localhost/bankTest/`
+
+```bash
+your-server:PORT
+#OR
+your-localhost/bankTest/
+```
 
 </div>
 
