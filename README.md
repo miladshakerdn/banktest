@@ -24,7 +24,7 @@
 
 توجه! لازم است که SOAP نصب باشد.
 
-[راهنمای نصب SOAP](https://github.com/miladshakerdn/banktest/blob/main/README.md#installation-soap-for-php)
+[راهنمای نصب SOAP](#نصب-soap-برای-php)
 
 
 <div style="text-align:left;"  dir="ltr">
