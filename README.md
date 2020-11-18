@@ -80,6 +80,6 @@ php artisan db:seed
 | Or Gateway URL | http://your-localhost/bankTest/gateway           |
 
 </div>
-برای متوجه شدن لینک دقیق (`your-server:PORT` یا `your-localhost/bankTest/public/`) می‌توانید صفحه اصلی پروژه را در مرورگر باز کرده تا از آن مطلع شوید.
+برای متوجه شدن لینک دقیق (`your-server:PORT` یا `your-localhost/bankTest/`) می‌توانید صفحه اصلی پروژه را در مرورگر باز کرده تا از آن مطلع شوید.
 
 </div>
