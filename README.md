@@ -1,21 +1,43 @@
-# banktest
+# Bank test
 
-شبیه‌ساز بانک ملت
+<div style="text-align:right;" dir="rtl">
 
-<div dir="rtl">
-<p><strong>کاربرد:</strong>
-توجه این نسخه اولیه است. مستندات تکمیل نیست
+# شبیه‌ساز بانک ملت
+
+<p>
+به دلیل اینکه استفاده از API  درگاه به‌پرداخت ملت، برای همه برنامه‌نویسان امکان‌پذیر نیست، میتوان از این برنامه برای تست و شبیه سازی پرداخت استفاده کرد.
 </p>
-<p>به دلیل اینکه استفاده از API شبیه‌ساز درگاه به‌پرداخت ملت، برای همه برنامه‌نویسان مهیا نیست، میتوانند از این برنامه برای تست پروژه‌های خود و شبیه سازی پرداخت واقعی استفاده کنند.</p>
-<p>در این نسخه تمامی متد‌ها موجود نیست ولی اضافه می‌شوند...</p>
-<p><strong>متد‌های موجود شامل :</strong></p>
-<pre dir="ltr">
+
+<strong>متد‌های موجود شامل :</strong>
+
+<p>
+<pre style="text-align:left;" dir="ltr">
 1- bpPayRequest
 2- bpVerifyRequest
 3- bpSettleRequest
 4- bpInquiryRequest
 5- bpReversalRequest
 </pre>
-<p>
-	<br>جزئیات بزودی قرار می‌گیرد</p>
+</p>
+
+<strong>وابستگی ها</strong>
+
+توجه! لازم است که SOAP نصب باشد.
+
+<div style="text-align:left;"  dir="ltr">
+    
+- [x] PHP ^7.3
+- [x] PHP soap
+    
+</div>
+
+# نصب
+
+نصب با استفاده از کامپوزر
+
+<pre style="text-align:left;" dir="ltr">
+composer require miladshakerdn/banktest
+composer install
+</pre>
+
 </div>

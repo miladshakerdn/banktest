@@ -11,4 +11,5 @@ class Terminal extends Model
     protected $table = 'acceptor';
     protected $primaryKey = 'id';
     protected $guarded = ['id'];
+    public $timestamps = false;
 }
