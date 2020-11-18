@@ -44,6 +44,15 @@ cd banktest
 
 #Install Lumen
 
+<<<<<<< HEAD
+=======
+<pre style="text-align:left;" dir="ltr">
+
+composer require miladshakerdn/banktest
+
+git clone https://github.com/miladshakerdn/banktest.git
+
+>>>>>>> 567fa6fb16821cf956a1b408f3aec15e12f1ffb9
 composer install
 ```
 
