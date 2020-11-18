@@ -24,6 +24,8 @@
 
 توجه! لازم است که SOAP نصب باشد.
 
+[راهنمای نصب SOAP](https://stackoverflow.com/a/22397686)
+
 <div style="text-align:left;"  dir="ltr">
     
 - [x] PHP ^7.3
