@@ -5,7 +5,7 @@
 # شبیه‌ساز بانک ملت
 
 <p>
-به دلیل اینکه استفاده از API  درگاه به‌پرداخت ملت، برای همه برنامه‌نویسان امکان‌پذیر نیست، میتوان از این برنامه برای تست و شبیه سازی پرداخت استفاده کرد.
+استفاده از درگاه آنلاین بانک ملت نیازمند دریافت نماد اعتماد الکترونیک است و همچنین API برای تست ندارد، این پروژه برای شبیه‌سازی پرداخت آنلاین بانک ملت است.
 </p>
 
 <strong>متد‌های موجود شامل :</strong>
@@ -31,22 +31,67 @@
     
 </div>
 
-# نصب
+## نصب
 
-نصب با استفاده از کامپوزر
+نصب با استفاده از کامپوزر. برای این شبیه ساز از فریمورک [Lumen](https://lumen.laravel.com/docs/8.x) استفاده شده.
 
-<pre style="text-align:left;" dir="ltr">
+<div style="text-align:left;" dir="ltr">
 
+```bash
 git clone https://github.com/miladshakerdn/banktest.git
 
 cd banktest
 
+#Install Lumen
+
 composer install
+```
 
+<div style="text-align:right;" dir="rtl">
+    
+فایل `.env` را باز کرده و اطلاعات دیتابیس را وارد کنید.
+</div>
+
+```bash
+#open .env and set your db information
+#migrate database
 php artisan migrate
-
 php artisan db:seed
+```
 
-</pre>
+</div>
+
+## نحوه استفاده
+
+مطابق مستندات ارائه شده توسط بانک ملت عمل کرده و مانند درگاه واقعی بانک ملت عمل میکند.
+
+اطلاعات اولیه پذیرنده شامل:
+
+<div style="text-align:left;" dir="ltr">
+
+| Name           | Value                                            |
+| -------------- | ------------------------------------------------ |
+| Terminal ID    | 123625346124                                     |
+| Username       | admin                                            |
+| Password       | admin                                            |
+| WSDL URL       | http://your-server:PORT/mellat/serve?wsdl        |
+| Gateway URL    | http://your-server:PORT/mellat/gateway           |
+| ---            | ---                                              |
+| Or WSDL URL    | http://your-localhost/bankTest/mellat/serve?wsdl |
+| Or Gateway URL | http://your-localhost/bankTest/gateway           |
+
+</div>
+برای متوجه شدن لینک دقیق می‌توانید صفحه اصلی پروژه را در مرورگر باز کرده تا از آن مطلع شوید.
+
+<div style="text-align:left;" dir="ltr">
+
+```bash
+# If use =>  php -S your-server:PORT -t public
+your-server:PORT
+# OR
+your-localhost/bankTest/
+```
+
+</div>
 
 </div>

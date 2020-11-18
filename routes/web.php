@@ -19,6 +19,11 @@ $router->get('/', function () use ($router) {
 $router->get('/', [
     'as' => 'mellat.help', 'uses' => 'MellatController@help'
 ]);
+
+$router->get('/mellat', [
+    'as' => 'mellat.help', 'uses' => 'MellatController@help'
+]);
+
 $router->get('/mellat/serve', [
     'as' => 'mellat.serve', 'uses' => 'MellatController@index'
 ]);
