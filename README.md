@@ -98,4 +98,24 @@ your-localhost/bankTest/
 
 </div>
 
+
+## Installation SOAP for PHP
+
+#### For Linux (Ubuntu)
+Apache
+```
+sudo apt-get install php-soap
+# For example, a specific version of php (7.4)
+sudo apt-get install php7.4-soap
+
+# Then
+sudo systemctl restart apache2
+
+```
+#### For Windows
+1. Find `extension=php_soap.dll` or `extension=soap` in `php.ini` and remove the commenting semicolon at the beginning of the line. Eventually check for `soap.ini` under the `conf.d` directory.
+
+2. Restart your server.
+
+
 </div>
