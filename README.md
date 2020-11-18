@@ -1,5 +1,3 @@
-# Bank test
-
 <div style="text-align:right;" dir="rtl">
 
 # شبیه‌ساز بانک ملت
@@ -24,6 +22,8 @@
 
 توجه! لازم است که SOAP نصب باشد.
 
+[#راهنمای نصب SOAP](#نصب-soap-برای-php)
+
 <div style="text-align:left;"  dir="ltr">
     
 - [x] PHP ^7.3
@@ -44,21 +44,15 @@ cd banktest
 
 #Install Lumen
 
-<<<<<<< HEAD
-=======
-<pre style="text-align:left;" dir="ltr">
-
-composer require miladshakerdn/banktest
-
-git clone https://github.com/miladshakerdn/banktest.git
-
->>>>>>> 567fa6fb16821cf956a1b408f3aec15e12f1ffb9
 composer install
 ```
 
 <div style="text-align:right;" dir="rtl">
     
-فایل `.env` را باز کرده و اطلاعات دیتابیس را وارد کنید.
+فایل <span style="text-align:left;" dir="ltr"> `.env` </span> را باز کرده و اطلاعات دیتابیس را وارد کنید.
+
+سپس با دستور زیر دیتابیس و داده‌های اولیه را ایجاد کنید:
+
 </div>
 
 ```bash
@@ -72,7 +66,7 @@ php artisan db:seed
 
 ## نحوه استفاده
 
-مطابق مستندات ارائه شده توسط بانک ملت عمل کرده و مانند درگاه واقعی بانک ملت عمل میکند.
+مطابق مستندات ارائه شده توسط بانک ملت عمل کرده و مانند درگاه بانک ملت عمل مي‌کند.
 
 اطلاعات اولیه پذیرنده شامل:
 
@@ -101,6 +95,45 @@ your-server:PORT
 your-localhost/bankTest/
 ```
 
+![Help WSDL URL](public/assets/img/1.png)
+
+<div style="text-align:right;" dir="rtl">
+و حالا میتوانید استفاده کنید در پروژه خودتون.
 </div>
+
+</div>
+
+## نصب SOAP برای PHP
+
+[php.net SOAP](https://www.php.net/manual/en/soap.installation.php)
+
+#### برای Linux (Ubuntu)
+
+<div style="text-align:left;" dir="ltr">
+    
+Apache
+
+```
+sudo apt-get install php-soap
+# For example, a specific version of php (7.4)
+sudo apt-get install php7.4-soap
+
+# Then
+sudo systemctl restart apache2
+```
+
+</div>
+
+#### برای ویندوز
+
+<div style="text-align:left;" dir="ltr">
+
+1. Find `extension=php_soap.dll` or `extension=soap` in `php.ini` and remove the commenting semicolon at the beginning of the line. Eventually check for `soap.ini` under the `conf.d` directory.
+
+2. Restart your server.
+
+</div>
+
+[در stackoverflow](https://stackoverflow.com/a/22397686)
 
 </div>
