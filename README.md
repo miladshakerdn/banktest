@@ -48,6 +48,7 @@ composer install
 ```
 
 <p style="text-align:right;" dir="rtl">
+    
 فایل `.env` را باز کرده و اطلاعات دیتابیس را وارد کنید.
 </p>
 
