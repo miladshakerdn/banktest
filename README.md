@@ -92,6 +92,8 @@ your-server:PORT
 your-localhost/bankTest/
 ```
 
+![Help WSDL URL](public/assets/img/1.png)
+
 </div>
 
 </div>
