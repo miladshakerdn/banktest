@@ -5,7 +5,7 @@
 # شبیه‌ساز بانک ملت
 
 <p>
-استفاده از درگاه آنلاین بانک ملت نیازمند دریافت نماد اعتماد الکترونیک است و همچنین API برای تست ندارد، این پروژه برای شبیه‌سازی پرداخت آنلاین است.
+استفاده از درگاه آنلاین بانک ملت نیازمند دریافت نماد اعتماد الکترونیک است و همچنین API برای تست ندارد، این پروژه برای شبیه‌سازی پرداخت آنلاین بانک ملت است.
 </p>
 
 <strong>متد‌های موجود شامل :</strong>
@@ -46,8 +46,9 @@ cd banktest
 
 composer install
 ```
-
+<p style="text-align:right;" dir="rtl">
 فایل `.env` را باز کرده و اطلاعات دیتابیس را وارد کنید.
+</p>
 
 ```bash
 #open .env and set your db information
@@ -64,7 +65,7 @@ php artisan db:seed
 
 اطلاعات اولیه پذیرنده شامل:
 
-<p style="text-align:left;" dir="ltr">
+<div style="text-align:left;" dir="ltr">
 
 | Name           | Value                                            |
 | -------------- | ------------------------------------------------ |
@@ -77,8 +78,9 @@ php artisan db:seed
 | Or WSDL URL    | http://your-localhost/bankTest/mellat/serve?wsdl |
 | Or Gateway URL | http://your-localhost/bankTest/gateway           |
 
+</div>
 برای متوجه شدن لینک دقیق (`your-server:PORT` یا `your-localhost/bankTest/public/`) می‌توانید صفحه اصلی پروژه را در مرورگر باز کرده تا از آن مطلع شوید.
 
-</p>
+
 
 </div>
