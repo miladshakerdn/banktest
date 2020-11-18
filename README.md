@@ -47,10 +47,10 @@ cd banktest
 composer install
 ```
 
-<p style="text-align:right;" dir="rtl">
+<div style="text-align:right;" dir="rtl">
     
 فایل `.env` را باز کرده و اطلاعات دیتابیس را وارد کنید.
-</p>
+</div>
 
 ```bash
 #open .env and set your db information
